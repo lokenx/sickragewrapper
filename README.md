@@ -6,6 +6,8 @@ A package that allows you to interface with [SickRage](http://www.sickrage.tv/),
 - Check availability of server
 - Check if TV Show exists on server
 - Add new TV show
+- Delete TV Show
+- Get episode download stats
 
 ## Installation
 
@@ -40,6 +42,11 @@ Define your SickRage server details somewhere in your server-side code.
 **deleteShow:** Remove TV show from server
 
     SickRage.deleteShow(tvdbid)
+    tvdbid should be a TVDB ID
+
+**statsShow:** Get episode download status of TV show
+
+    SickRage.statsShow(tvdbid)
     tvdbid should be a TVDB ID
 
 ## License

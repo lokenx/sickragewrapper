@@ -1,6 +1,6 @@
 Package.describe({
   name: 'lokenx:sickragewrapper',
-  version: '0.0.2',
+  version: '0.0.3',
   // Brief, one-line summary of the package.
   summary: 'Wrapper for the SickRage API',
   // URL to the Git repository containing the source code for this package.
@@ -21,6 +21,7 @@ Package.onUse(function(api) {
   api.addFiles('lib/server/methods/checkShow.js', ['server']);
   api.addFiles('lib/server/methods/addShow.js', ['server']);
   api.addFiles('lib/server/methods/deleteShow.js', ['server']);
+  api.addFiles('lib/server/methods/statsShow.js', ['server']);
 
   api.export("SickRage");
 });
