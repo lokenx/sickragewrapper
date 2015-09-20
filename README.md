@@ -5,6 +5,7 @@ A package that allows you to interface with [SickRage](http://www.sickrage.tv/),
 ## Features
 - Check availability of server
 - Check if TV Show exists on server
+- Add new TV show
 
 ## Installation
 
@@ -29,6 +30,11 @@ Define your SickRage server details somewhere in your server-side code.
 **checkShow:** Check if show exists on server
 
     SickRage.checkShow(tvdbid)
+    tvdbid should be a TVDB ID
+
+**addShow:** Add new TV show to server
+
+    SickRage.addShow(tvdbid)
     tvdbid should be a TVDB ID
 
 ## License
