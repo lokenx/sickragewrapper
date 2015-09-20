@@ -20,6 +20,7 @@ Package.onUse(function(api) {
   api.addFiles('lib/server/methods/available.js', ['server']);
   api.addFiles('lib/server/methods/checkShow.js', ['server']);
   api.addFiles('lib/server/methods/addShow.js', ['server']);
+  api.addFiles('lib/server/methods/deleteShow.js', ['server']);
 
   api.export("SickRage");
 });

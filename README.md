@@ -37,6 +37,11 @@ Define your SickRage server details somewhere in your server-side code.
     SickRage.addShow(tvdbid)
     tvdbid should be a TVDB ID
 
+**deleteShow:** Remove TV show from server
+
+    SickRage.deleteShow(tvdbid)
+    tvdbid should be a TVDB ID
+
 ## License
 
 This application is licensed under The MIT License.
