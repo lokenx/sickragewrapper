@@ -36,8 +36,9 @@ Define your SickRage server details somewhere in your server-side code.
 
 **addShow:** Add new TV show to server
 
-    SickRage.addShow(tvdbid)
+    SickRage.addShow(tvdbid, episodes)
     tvdbid should be a TVDB ID
+    episodes should 0 or 1 depending if you want old episodes status set to wanted instead of the default of the server
 
 **deleteShow:** Remove TV show from server
 
