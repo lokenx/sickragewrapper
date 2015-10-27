@@ -21,6 +21,7 @@ Define your SickRage server details somewhere in your server-side code.
       SickRage.url = "http://192.168.0.1";
       SickRage.port = 8081;
       SickRage.api = "abcdef012345";
+      SickRage.directory = "";
     }
 
 ## Functions

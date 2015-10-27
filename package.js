@@ -1,6 +1,6 @@
 Package.describe({
   name: 'lokenx:sickragewrapper',
-  version: '0.0.4',
+  version: '0.0.5',
   // Brief, one-line summary of the package.
   summary: 'Wrapper for the SickRage API',
   // URL to the Git repository containing the source code for this package.
@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.3');
 
-  api.use('meteor-base')
+  api.use('meteor-base@1.0.1')
   api.use('check');
   api.use('http');
 
